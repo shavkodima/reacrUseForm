@@ -1,8 +1,12 @@
-import { useState } from 'react';
 import './App.css';
+import Form from './component/Form/Form';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Form />
+    </>
+  );
 }
 
 export default App;
